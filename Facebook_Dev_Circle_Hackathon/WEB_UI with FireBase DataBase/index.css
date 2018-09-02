@@ -1,0 +1,275 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+.my-nav{
+    background-image: url("./153581427727294526.png");
+    opacity: 0.9;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background-color: transparent !important;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    border-bottom: 0.1px solid  !important;
+    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.8);
+}
+.navbar-brand img{
+    width: 56px;
+}
+.navbar .navbar-brand {
+    font-size:1.3em;
+    font-weight: bold;
+}
+.navbar .navbar-nav .nav-item{
+    padding-left: 174px;
+    font-size: 1.2em;
+}
+ul li span{
+    color: white;
+}
+nav a span{
+    color: white;
+}
+.navbar .navbar-expand-md .bg-dark .navbar-dark .sticky-top{
+    border-bottom: 1px solid white;
+}
+.btn{
+    width: 136px;
+    height: 54px;
+    line-height: 40px;
+    border: 0px solid #000;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+.btn > p {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.8s ease;
+}
+.btn:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    transition: all 0.8s ease;
+}
+.btn-1:before{
+    top: 60px;
+    left: 0;
+}
+.btn{
+    overflow: hidden;
+}
+.btn-1:hover:before{
+    top: 0;
+}
+.btn:hover p{
+    color: #fff;
+}
+
+
+.work {
+    font-family:  sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+    letter-spacing: .2rem;
+
+}
+
+
+
+
+.flex-container{
+    max-width: 1150px;
+    margin:0 auto;
+}
+.flex-container div p{
+    padding: 20px;
+    margin-bottom: 0;
+}
+/*image*/
+.ig{
+    display: block;
+    height: 250px;
+    width: 100%;
+    transition: opacity 0.4s ease;
+}
+
+
+.ig:hover{
+    opacity: 0.7;
+}
+.igi{
+    padding-left: 60px;
+    align-content: center;
+    display: block;
+    height: 250px;
+    width: 80%;
+    transition: opacity 0.4s ease;
+}
+
+
+.igi:hover{
+    opacity: 0.7;
+}
+
+
+
+/*media querries*/
+/* @media screen and (min-width:411px){
+    header .avatar {
+    width: 144px;
+    height: 144px;
+    }
+} */
+@media screen and (min-width:700px){
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .a1 ,
+    .a2{
+        width: 50%;
+        order: 1;;
+    }
+    .a3 ,
+    .a4{
+        width: 50%;
+        order: 2;
+    }
+    .a5 ,
+    .a6{
+        width: 50%;
+        order: 3;
+    }
+    header .avatar {
+    width: 160px;
+    height: 160px;
+    margin-top: 20vh;
+    }
+    .name h2 {
+        font-size: 2.2em;
+    }
+    .name h3{
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (min-width:1024px){
+    header .avatar {
+    width: 192px;
+    height: 192px;
+    margin-top: 30vh;
+    }
+    .name h2 {
+        font-size: 2.4em;
+    }
+    .name h3{
+        font-size: 1.6em;
+    }
+}
+
+
+
+.row1{
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+    /* box-shadow: 8px 6px 40px -14px rgba(0,0,0,0.4); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid lightgray;
+    margin-bottom: 3rem;
+}
+
+.content{
+    margin-top: 56px;
+}
+
+.footer-1{
+    background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+}
+.footer-2{
+    background-color:black;
+    font-size: .9em;
+}
+.connect {
+    text-align: center;
+    padding-top: 24px;
+    font-size: 1em;
+    color: white;
+}
+.row{
+    padding-bottom:  1em;
+}
+
+.track img{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hell{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tab{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    border-bottom: 120px;
+}
+
+.t{
+    border-bottom: 120px;
+}
+
+.the{
+    padding: 10px;
+    margin: 48px;
+    background-color: #886AEA;
+    color:#fff;
+}
+.tb{
+    padding: 10px;
+    margin: 48px;
+    
+}
+#id01{
+   margin-left: 900px;
+}
+
+.hell{
+    border-bottom: 48px;
+}
+
+h1{
+    font-size: 100px;
+    color: #fff;
+    margin-top : 160px;
+}
+h2{
+    font-size:72px;
+    color: #fff;
+    margin-top: 24px;
+}

@@ -1,0 +1,50 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+  <script language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/firebasejs/3.6.3/firebase.js"></script>
+  
+  
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+</head>
+
+<body>
+
+   <pre id="response1">
+
+   </pre>
+
+   <ul id="list">
+
+   </ul>
+
+   <p><button onclick="w3.toggleShow('#id01')">Get Result</button></p>
+
+   <table id="id01" border="1">
+    <thead>
+        <tr>
+            <th>Humidity</th>
+            <th>Proximity</th>
+            <th>Temperature</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>{{Humidity}}</td>
+            <td>{{Proximity}}</td>
+            <td>{{Temperature}}</td>
+        </tr>
+    </tbody>
+
+   </table>
+   <script>
+      
+   </script>
+
+   <script language="javascript" type="text/javascript" src="sensor_dummy.js"></script>
+   <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+</body>
+</html>
